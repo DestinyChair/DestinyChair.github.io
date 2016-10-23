@@ -1,0 +1,61 @@
+.day-header {
+    min-width: 714px;
+    max-width: 714px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    border: 1pt solid #2A07F0;
+}
+
+.day-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    border: 1pt solid #2A07F0;
+}
+
+.gameday-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    border: 1pt solid #DB121F;
+    box-shadow: 1px 1px 8px 4px rgba(196,6,6,.4);
+}
+
+.day-wrapper-past, .gameday-wrapper-past {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    border: 1pt solid #2A07F0;
+    background-color: #CDD6F4;
+}
+
+.emptyday-past{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background-color: #CDD6F4;
+}
+
+.gameday {
+    font-weight: 800;
+    color: #C40606;
+    cursor: default;
+}
+
+.day, .emptyday {
+    color: #0A0047;
+    cursor: default;
+}

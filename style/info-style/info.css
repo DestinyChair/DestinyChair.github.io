@@ -1,0 +1,10 @@
+@import url('./style-details.css');
+@import url('./style-image.css');
+
+.info-container {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}

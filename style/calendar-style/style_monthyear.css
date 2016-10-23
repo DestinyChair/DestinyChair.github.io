@@ -1,0 +1,18 @@
+.monthyear-wrapper {
+    width: 816px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+}
+
+.monthyear {
+    min-width: 272px;
+    font-size: 24pt;
+    font-weight: 600;
+    background: -webkit-radial-gradient(#C40606, #910406, #EB1010);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}

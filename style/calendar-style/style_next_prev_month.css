@@ -1,0 +1,20 @@
+.next-month-wrapper, .prev-month-wrapper {
+}
+
+.nextmonth, .prevmonth {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 12pt;
+    font-weight: 400;
+    color: #C40606;
+    cursor: default;
+}
+
+.prevmonth-false {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 12pt;
+    font-weight: 300;
+    color: #B0B9C1;
+    cursor: default;
+}

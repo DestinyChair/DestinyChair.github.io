@@ -1,0 +1,16 @@
+.week-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6px;
+}
+
+.week {
+    text-align: center;
+    text-decoration: underline;
+    -moz-text-decoration-color: #DB121F;
+    list-style: none;
+    color: #B3000C;
+    width: 102px;
+}

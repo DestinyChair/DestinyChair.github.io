@@ -1,0 +1,11 @@
+/* Master style sheet */
+
+@import url('./calendar-style/calendar.css');
+@import url('./info-style/info.css');
+
+.container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}

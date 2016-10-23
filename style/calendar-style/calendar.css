@@ -1,0 +1,22 @@
+@import url('./style_next_prev_month.css');
+@import url('./style_days.css');
+@import url('./style_monthyear.css');
+@import url('./style_weeks.css');
+
+.calendar {
+    padding-left: 20px;
+}
+
+.cal-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cal-body {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}

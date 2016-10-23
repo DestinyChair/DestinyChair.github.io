@@ -1,0 +1,93 @@
+.detail-header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    width: 826px;
+}
+
+.detail-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.details {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    font-weight: 200;
+    color: #0A0047;
+}
+
+.team {
+    font-size: 30pt;
+    font-weight: 800;
+    background: -webkit-radial-gradient(#C40606, #910406, #EB1010);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 225px;
+    text-align: center;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: justify;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 100px;
+    width: 150px;
+}
+
+.versus {
+    height: 26px;
+    font-size: 24pt;
+    font-weight: 800;
+    background: -webkit-radial-gradient(#C40606, #910406, #EB1010);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #B00204;
+}
+
+.vs {
+    font-size: 36pt;
+    font-weight: 600;
+    background: -webkit-radial-gradient(#C40606, #910406, #EB1010);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 76px;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.date-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.date {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22pt;
+    font-weight: 600;
+    color: #170387;
+}
+
+.contact-wrapper, .detail-wrapper {
+    padding-top: 6px;
+    padding-bottom: 20px;
+    text-align: center;
+    height: 35px;
+}
+
+.initial_info {
+    font-size: 16pt;
+    color: #0A0047;
+}
