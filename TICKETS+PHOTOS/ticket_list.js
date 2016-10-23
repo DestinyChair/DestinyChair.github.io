@@ -19,7 +19,7 @@ var ticketlist = [
         { team1: 'Habs', team2: 'Islanders', day: 23, month: 2, year: 2017, hour: 7, minute: 30, price: 220, section: [308, 322] },
         { team1: 'Habs', team2: 'Blackhawks', day: 14, month: 3, year: 2017, hour: 7, minute: 30, price: 325, section: [310, 322] },
         { team1: 'Habs', team2: 'Senators', day: 19, month: 3, year: 2017, hour: 7, minute: 30, price: 280, section: [322] },
-        { team1: 'Habs', team2: 'Redwings', day: 21, month: 3, year: 2017, hour: 7, minute: 30, price: 220, section: [308, 322] },
+        { team1: 'Habs', team2: 'Red Wings', day: 21, month: 3, year: 2017, hour: 7, minute: 30, price: 220, section: [308, 322] },
         { team1: 'Habs', team2: 'Hurricanes', day: 23, month: 3, year: 2017, hour: 7, minute: 30, price: 200, section: [308] },
         { team1: 'Habs', team2: 'Senators', day: 25, month: 3, year: 2017, hour: 7, minute: 0, price: 350, section: [308, 322] },
         { team1: 'Habs', team2: 'Stars', day: 28, month: 3, year: 2017, hour: 7, minute: 30, price: 220, section: [308] },
