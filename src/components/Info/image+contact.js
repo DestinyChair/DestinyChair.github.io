@@ -5,7 +5,7 @@ class ImageContact extends Component {
     render() {
         //handles when nothing is selected when page initially loads
         if (!this.props.ticket) {
-            return <div className='initial_info'>Select a highlighted date to see details of that days game!</div>;
+            return <div className='initial_info'>Game days are highlighted in red! Click next month to see available games (highlighted in red)!</div>;
         }
 
         //
