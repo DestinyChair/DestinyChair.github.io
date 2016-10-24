@@ -38,7 +38,7 @@ class Details extends Component {
                     <div className='date'>{this.props.ticket.day} {month_name[this.props.ticket.month]}, {this.props.ticket.year}</div>
                 </div>
                 <div className='detail-wrapper'>
-                    <div className='details'>Section: {sections} | Price: {this.props.ticket.price}$</div>
+                    <div className='details'>Section: {sections} | Price (for a pair): {this.props.ticket.price}$</div>
                 </div>
             </div>
         );
