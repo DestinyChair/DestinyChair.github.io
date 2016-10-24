@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import Initial from './initial';
+import Contact from './contact';
 
 class ImageContact extends Component {
     render() {
         //handles when nothing is selected when page initially loads
         if (!this.props.ticket) {
-            return <div className='initial_info'>Game days are highlighted in red! Click next month to see available games (highlighted in red)!</div>;
+            return <Initial />;
         }
 
         //
@@ -26,10 +28,7 @@ class ImageContact extends Component {
                         <img className='image' src={ticket_path} alt='no img'/>
                     </div>
                 </div>
-                <div className='contact-wrapper'>
-                    <div className='details'>Bell Center: 1909 Ave des Canadiens-de-Montréal, Montréal, QC H4B 5G0</div>
-                    <div className='details'>Phone: 819-321-5053 | Email: pierlou_s@hotmail.com</div>
-                </div>
+                <Contact />
             </div>
         );
     }

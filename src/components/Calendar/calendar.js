@@ -41,7 +41,9 @@ class Calendar extends Component {
             <div className='calendar'>
                 <div className='cal-header'>
                     <MonthYear 
-                        month={this.props.date}/>
+                        date={this.props.date}
+                        prevMonth={this.prevMonth}
+                        nextMonth={this.nextMonth}/>
                     <Weekdays />
                 </div>
                 <div className='cal-body'>

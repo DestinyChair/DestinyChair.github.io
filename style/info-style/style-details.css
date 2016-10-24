@@ -87,7 +87,25 @@
     height: 35px;
 }
 
-.initial_info {
-    font-size: 16pt;
+.init-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.init-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.init-text {
     color: #0A0047;
+    font-size: 16pt;
+    padding: 3px;
+}
+
+.red {
+    color: red;
+    font-size: 16pt;
+    padding: 3px;
 }
